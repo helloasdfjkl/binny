@@ -1,10 +1,11 @@
 import * as WebBrowser from 'expo-web-browser';
 import React from 'react';
-import { StyleSheet, TouchableOpacity } from 'react-native';
+import { StyleSheet, TouchableOpacity, View } from 'react-native';
+import { FontAwesome } from "@expo/vector-icons";
 
 import Colors from '../constants/Colors';
 import { MonoText } from './StyledText';
-import { Text, View } from './Themed';
+import { Text } from './Themed';
 
 export default function EditScreenInfo({ path }: { path: string }) {
   return (
